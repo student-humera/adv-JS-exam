@@ -1,0 +1,167 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Essence Mascara",
+      "category": "beauty",
+      "price": 9.99,
+      "rating": 3.89,
+      "stock": 24
+    },
+    {
+      "id": 2,
+      "title": "Eyeshadow Palette",
+      "category": "beauty",
+      "price": 19.99,
+      "rating": 3.99,
+      "stock": 11
+    },
+    {
+      "id": 3,
+      "title": "Powder Canister",
+      "category": "beauty",
+      "price": 14.99,
+      "rating": 3.51,
+      "stock": 73
+    },
+    {
+      "id": 4,
+      "title": "Red Lipstick",
+      "category": "beauty",
+      "price": 12.99,
+      "rating": 3.54,
+      "stock": 79
+    },
+    {
+      "id": 5,
+      "title": "Red Nail Polish",
+      "category": "beauty",
+      "price": 8.99,
+      "rating": 3.49,
+      "stock": 69
+    },
+    {
+      "id": 6,
+      "title": "Calvin Klein Bag",
+      "category": "womens-bags",
+      "price": 89.99,
+      "rating": 3.72,
+      "stock": 16
+    },
+    {
+      "id": 7,
+      "title": "Hyaluronic Serum",
+      "category": "skincare",
+      "price": 45.5,
+      "rating": 4.05,
+      "stock": 13
+    },
+    {
+      "id": 8,
+      "title": "Vitamin C Serum",
+      "category": "skincare",
+      "price": 38.0,
+      "rating": 3.76,
+      "stock": 75
+    },
+    {
+      "id": 9,
+      "title": "Attitude Deodorant",
+      "category": "fragrances",
+      "price": 19.5,
+      "rating": 4.04,
+      "stock": 110
+    },
+    {
+      "id": 10,
+      "title": "Chanel Perfume",
+      "category": "fragrances",
+      "price": 120.0,
+      "rating": 4.25,
+      "stock": 33
+    },
+    {
+      "id": 11,
+      "title": "Dell Latitude",
+      "category": "laptops",
+      "price": 799.0,
+      "rating": 4.35,
+      "stock": 79
+    },
+    {
+      "id": 12,
+      "title": "MacBook Air",
+      "category": "laptops",
+      "price": 1099.0,
+      "rating": 4.82,
+      "stock": 78
+    },
+    {
+      "id": 13,
+      "title": "Asus Zenbook",
+      "category": "laptops",
+      "price": 649.0,
+      "rating": 4.28,
+      "stock": 11
+    },
+    {
+      "id": 14,
+      "title": "iPhone 13",
+      "category": "smartphones",
+      "price": 729.0,
+      "rating": 4.86,
+      "stock": 10
+    },
+    {
+      "id": 15,
+      "title": "Samsung Galaxy S8",
+      "category": "smartphones",
+      "price": 480.0,
+      "rating": 4.23,
+      "stock": 22
+    },
+    {
+      "id": 16,
+      "title": "Huawei P30",
+      "category": "smartphones",
+      "price": 349.0,
+      "rating": 3.83,
+      "stock": 23
+    },
+    {
+      "id": 17,
+      "title": "Leather Wallet",
+      "category": "mens-accessories",
+      "price": 42.0,
+      "rating": 4.21,
+      "stock": 78
+    },
+    {
+      "id": 18,
+      "title": "Sports Watch",
+      "category": "mens-watches",
+      "price": 210.0,
+      "rating": 3.86,
+      "stock": 109
+    },
+    {
+      "id": 19,
+      "title": "Running Shoes",
+      "category": "mens-shoes",
+      "price": 89.0,
+      "rating": 4.42,
+      "stock": 18
+    },
+    {
+      "id": 20,
+      "title": "Noise Cancelling Headphones",
+      "category": "audio",
+      "price": 259.0,
+      "rating": 4.6,
+      "stock": 33
+    }
+  ],
+  "total": 20,
+  "skip": 0,
+  "limit": 20
+}

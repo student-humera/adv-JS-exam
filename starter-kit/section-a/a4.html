@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <!-- A4 — Predict the output (5 marks) -->
+  <!-- Open this file in a browser and click the button to verify,
+       but write your prediction FIRST. -->
+
+  <div id="outer">
+    <div id="inner">
+      <button id="btn">Click me</button>
+    </div>
+  </div>
+
+  <script>
+    const outer = document.querySelector('#outer');
+    const inner = document.querySelector('#inner');
+    const btn = document.querySelector('#btn');
+
+    outer.addEventListener('click', () => console.log('outer bubble'));
+    outer.addEventListener('click', () => console.log('outer capture'), true);
+    inner.addEventListener('click', () => console.log('inner bubble'));
+    inner.addEventListener('click', () => console.log('inner capture'), true);
+    btn.addEventListener('click', () => console.log('button'));
+
+    // Output:
+    // .............
+    outer capture 
+    inner capture
+    button
+    inner bubble
+    outer bubble
+
+
+    // Reasoning:
+    // .............
+    we are using here bubbling and capturing a method so, bubbling the default behaviour,
+    it goes from grandparent, parent, child if we use capture then it stops the default behaviour of bubbling,
+    it stops bubbling and capture is same like bubbling but the capture has the another argument as capture: true,
+
+    // What changes with stopPropagation() on the inner capture listener:
+    // .............
+    the stopPropagation stops the bubbling it does not print next time it stops the propagation ,
+    it won't print again by clicking on it again and again.
+    
+  </script> 
+</body>
+</html>

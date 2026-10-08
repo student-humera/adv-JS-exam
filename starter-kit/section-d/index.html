@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product Board</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Product Board</h1>
+    <label><input type="checkbox" id="filter" /> Only above 500</label>
+    <p id="summary"></p>
+    <p id="selected-count">Selected: 0</p>
+  </header>
+
+  <main>
+    <p id="status" hidden></p>
+    <button id="retry" hidden>Retry</button>
+    <div id="board"></div>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
